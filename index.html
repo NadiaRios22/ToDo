@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="new_todo_body">
+      <div class="new_todo">
+        <h3>New Todo</h3>
+        <div class="nav">
+          <input type="text" placeholder="write here" />
+          <input class="button_add" type="submit" value="Add" />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="task">
+        <h2>Tasks</h2>
+        <div class="container">
+          <div id="unit1" class="grid">
+            <label for="edit">Edit:</label>
+            <input
+              type="text"
+              id="edit"
+              placeholder="Wash the dishes..."
+              name="edit"
+            />
+            <input class="button_save" type="submit" value="Save" />
+          </div>
+          <div id="unit2" class="grid">
+            <div>
+              <input type="checkbox" id="clean_my_room" name="clean_my_room" />
+              <label for="clean_my_room">Clean my room</label>
+            </div>
+            <div class="buttons">
+              <button>
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button>
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </div>
+          </div>
+          <div id="unit3" class="grid">
+            <div>
+              <input type="checkbox" id="call_parents" name="Call_parents" />
+              <label for="call_parents">Call parents</label>
+            </div>
+            <div class="buttons">
+              <button>
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button>
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </div>
+          </div>
+          <div id="unit4" class="grid">
+            <div>
+              <input
+                type="checkbox"
+                id="finish_editing_the_video"
+                name="finish_editing_the_video"
+              />
+              <label for="finish_editing_the_video"
+                >Finish editing the video</label
+              >
+            </div>
+            <div class="buttons">
+              <button>
+                <span class="material-symbols-outlined"> edit </span>
+              </button>
+              <button>
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
